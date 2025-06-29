@@ -28,6 +28,27 @@ Classes Used:
 1 — Positive
 0 — Negative
 (Neutral rows are removed if present)
+
+## Key features
+Load the Dataset – A CSV file containing reviews and sentiment labels
+
+Text Preprocessing – Remove special characters, convert to lowercase, and clean noise
+
+Feature Extraction – Apply TF-IDF to extract relevant words and phrases
+
+Model Training – Use Logistic Regression or LinearSVC for classification
+
+Evaluation – Check accuracy, confusion matrix, and classification report
+
+Custom Predictions – Test model on new review inputs
+
+## Libraries Used
+
+pandas, re – For data cleaning
+
+sklearn – For model training, evaluation, and TF-IDF
+
+matplotlib, seaborn – For visualizing confusion matrix and results
 ## output
 
 ![Image](https://github.com/user-attachments/assets/3d2fda60-82e1-4b74-b602-639cb610d7cf)
